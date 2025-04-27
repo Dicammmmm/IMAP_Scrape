@@ -77,7 +77,7 @@ This Python script automates the process of scraping email attachments (CSV and 
         INSERT INTO emails (email, brand) VALUES
         ('reports@company-a.com', 'company_a_reports'),
         ('daily_stats@company-b.com', 'company_b_daily'),
-        ('marko.madic13@outlook.com', 'leovegas');
+        ('company-c@compc.com', 'company_c_monthly');
         -- Add more rows as needed
         ```
         * The `brand` value **must** be a valid PostgreSQL table name. The script will use this name to create/access the target data table.
